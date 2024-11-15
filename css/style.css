@@ -1,0 +1,454 @@
+body{
+  background-color: #e3dede;
+}
+.navbar {
+  display: flex;
+  justify-content: center;
+  background-color: #333030;
+  overflow: hidden;
+  font-size: large;
+}
+.navbar a {
+  color: #FFFFFF;
+  text-align: center;
+  font-weight: bold;
+  font-size: 25px;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+.navbar a:hover {
+  background-color: #795548;
+  color: #FFFFFF;
+}
+.m-toggle {
+  display: none;
+  background: none;
+  border: none;
+  color: #FFFFFF;
+  font-size: 30px;
+  cursor: pointer;
+}
+@media screen and (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+    display: none; 
+  }
+  .navbar.show {
+    display: flex;
+  }
+  .m-toggle {
+    display: block;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+}
+#welcome {
+  width: 100%;
+  height: 730px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-top: -50px;
+}
+@media screen and (max-width: 768px) {
+  #welcome {
+    height: 500px; 
+    margin-top: -30px; 
+  }
+}
+#index-h1-c01 {
+  text-align: center;
+  padding-top: 150px;
+  font-size: 64px; 
+  font-weight: 700;
+  margin-top: 30px;
+}
+@media screen and (max-width: 768px) {
+  #index-h1-c01 {
+    padding-top: 100px;
+    font-size: 40px; 
+    margin-top: 20px;
+  }
+}
+#index-h3-c02 {
+  text-align: center;
+  font-size: 50px;
+  font-style: italic;
+  margin-top: -30px;
+}
+@media screen and (max-width: 768px) {
+  #index-h3-c02 {
+    font-size: 28px; 
+    margin-top: -10px;
+  }
+}
+#zaman {
+  color: #000000;
+  font-size: 80px;
+  text-align: center;
+  margin-top: 20px;
+}
+@media screen and (max-width: 768px) {
+  #zaman {
+    font-size: 40px; 
+    margin-top: 10px;
+  }
+}
+/* Portfolio */
+#portfolio-h1-c01{
+  text-align: center;
+  font-size: 64px;
+  font-weight: 700;
+  margin-top: 50px;
+}
+/* About_me */
+#about_me-h1-c01{
+  text-align: center;
+  padding-top: 200px;
+  font-size: 84px;
+  font-weight: 700;
+  margin-top: 50px;
+}
+#about_me-h3-c02{
+  text-align: center;
+  font-size: 16px;
+  font-style: italic;
+  margin-top: -30px;
+}
+#who_am_i {
+  width: 102%;
+  height: 730px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-top: -50px;
+}
+/* ikonlar */
+#icons ul li{
+  width: 300px;
+  padding-top: 120px;
+  float: left;
+  margin-right: 30px;
+  margin-left: 30px;
+  list-style-type: none;
+  text-align: center;
+  color: #fff;
+  margin-top: -60px;
+  position: fixed;
+  position: relative;
+}
+#icons ul li div{
+  position: relative;
+}
+#icons ul li div i{
+  background-color:#fff ;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform:translateX(-50%)
+}
+#icons ul li h4,#icons ul li p{
+  text-align: center;
+}
+#icons ul li h4{
+  margin-top: 110px;
+}
+#social_media{
+  width: 100%;
+  height: 150px;
+}
+#social-icons{
+  list-style-type: none;
+  color: #fff;
+  text-align: center;
+  margin-top: 10%;
+}
+#social-icons ul {
+  display: flex; 
+  justify-content: center; 
+  padding: 0; 
+}
+#social-icons li {
+  background-color: #333030;
+  width: 65px;
+  height: 65px;
+  border-radius: 50%;
+  margin: 0 5px; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#social-icons i {
+  color: white;
+}
+#eighth-p{
+  text-align: center;
+  margin-top: 40px;
+}
+/* button */
+.button-1 {
+	display: block;
+	text-align: center;
+	background: #1D809F;
+	border-radius: 5px;
+	color:#fff;
+	width: 180px;
+	height: 50px;
+	font-size: 20px;
+	line-height: 50px;
+	margin: 0 auto;
+  text-decoration: none;
+}
+.button-1-more {
+	display: block;
+	text-align: center;
+	background: #1D809F;
+	border-radius: 5px;
+	color:#fff;
+	width: 180px;
+	height: 50px;
+	font-size: 20px;
+	line-height: 50px;
+	margin: 0 auto;
+  margin-top: 5%;
+  text-decoration: none;
+}
+
+#more {
+  display: none;
+}
+.button-1-cv {
+	display: block;
+	text-align: center;
+	background: #1D809F;
+	border-radius: 5px;
+	color:#fff;
+	width: 180px;
+	height: 50px;
+	font-size: 20px;
+	line-height: 50px;
+	margin: 0 auto;
+  margin-top: 1%;
+  text-decoration: none;
+}
+ #cv_01 {
+  text-align: center;
+  font-weight: 700;
+  position: relative;
+  margin-top: 10px;
+} 
+/* Form  */
+#contact {
+  background: #8b8687; 
+  max-width: 400px;
+  width: 90%;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  color: #ffffff;
+  text-align: center;
+  margin: 20px auto;
+}
+
+.form h2 {
+  font-size: 22px; 
+  font-weight: bold;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+  border-bottom: 2px solid #ffffff;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+.form input[type="text"],
+.form input[type="email"],
+.form textarea {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 10px;
+  border: 1px solid #444444;
+  background-color: #333333;
+  color: #ffffff;
+  border-radius: 4px;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+.form input[type="text"]:focus,
+.form input[type="email"]:focus,
+.form textarea:focus {
+  border-color: #6ca0dc;
+  outline: none;
+  box-shadow: 0 0 5px rgba(108, 160, 220, 0.5);
+}
+@media screen and (max-width: 768px) {
+  #contact {
+    padding: 15px; 
+  }
+  .form h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  .form input[type="text"],
+  .form input[type="email"],
+  .form textarea {
+    font-size: 14px; 
+    padding: px;
+  }
+}
+@media screen and (max-width: 480px) {
+  #contact {
+    width: 100%;
+    padding: 10px;
+  }
+  .form h2 {
+    font-size: 18px; 
+  }
+  .form input[type="text"],
+  .form input[type="email"],
+  .form textarea {
+    font-size: 13px;
+    padding: 8px;
+  }
+}
+.form label {
+  display: block;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 8px;
+  text-align: left;
+  color: #ffffff;
+}
+.form input[type="text"],
+.form input[type="email"],
+.form textarea {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 10px;
+  border: 1px solid #444444;
+  background-color: #333333;
+  color: #ffffff;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 16px;
+  resize: none;
+}
+.form input[type="text"]:focus,
+.form input[type="email"]:focus,
+.form textarea:focus {
+  border-color: #6ca0dc;
+  outline: none;
+  box-shadow: 0 0 5px rgba(108, 160, 220, 0.5);
+}
+/* Responsive Ayarlar */
+@media screen and (max-width: 768px) {
+  #contact {
+    padding: 20px;
+  }
+  .form h2 {
+    font-size: 20px;
+  }
+  .form label {
+    margin-top: 15px;
+    font-size: 14px; 
+  }
+  .form input[type="text"],
+  .form input[type="email"],
+  .form textarea {
+    font-size: 14px; 
+    padding: 10px; 
+  }
+}
+
+@media screen and (max-width: 480px) {
+  #contact {
+    width: 100%; 
+    padding: 15px;
+  }
+
+  .form h2 {
+    font-size: 18px;
+  }
+
+  .form input[type="text"],
+  .form input[type="email"],
+  .form textarea {
+    font-size: 13px;
+    padding: 8px;
+  }
+}
+
+/* Projelerim Bölümü */
+#projelerim {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; 
+  gap: 20px;
+  margin: 20px auto;
+  padding: 20px;
+  max-width: 1200px;
+}
+.proje {
+  width: 280px;
+  background-color: #333030;
+  color: #fff;
+  border: 1px solid #444444;
+  border-radius: 10px;
+  padding: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s, box-shadow 0.3s;
+  overflow: hidden; /* Taşmaları önlemek için */
+}
+.proje:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+/* Proje Resmi */
+.proje img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  transition: transform 0.3s; 
+}
+/* Proje Başlığı */
+.proje h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.proje p {
+  font-size: 16px;
+  color: #ddd;
+  line-height: 1.4;
+}
+.proje a {
+  display: block;
+  margin: 10px auto;
+  padding: 10px 20px;
+  text-align: center;
+  background-color: #1D809F;
+  color: #fff;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+.proje a:hover {
+  background-color: #6ca0dc;
+}
+.proje:hover img {
+  transform: scale(1.1);
+}
+#populerlik{
+  text-align: center;
+  margin-top: 10px;
+}
+#tarihsel{
+  text-align: center;
+  margin-top: 12px;
+}
