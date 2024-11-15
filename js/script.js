@@ -45,10 +45,8 @@ function myFunction() {
     let projelerArray = Array.from(projeler);
 
       if (kriter === 'populerlik') {
-        // Popülerliğe göre sırala
         projelerArray.sort((a, b) => b.dataset.populerlik - a.dataset.populerlik);
     } else if (kriter === 'tarih') {
-        // Tarihe göre sırala
         projelerArray.sort((a, b) => new Date(b.dataset.tarih) - new Date(a.dataset.tarih));
     }
 
